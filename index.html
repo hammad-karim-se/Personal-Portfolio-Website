@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Hammad Karim</title>
+  <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h2>Portfolio<span class="dot">.</span></h2>
+
+    <button class="mobile-menu-btn">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="theme-switch">
+      <i class="fa-solid fa-moon"></i>
+      <i class="fa-solid fa-sun"></i>
+    </button>
+  </header>
+  <!-- Home -->
+  <section class="hero" id="home">
+    <h1>Hammad Karim</h1>
+    <span id="typing"></span>
+    <div class="hero-btns">
+      <a href="https://github.com/hammad-karim-se/" target="_blank">
+        <button>
+          <i class="fa-brands fa-github"></i>
+          GitHub
+        </button>
+      </a>
+      <a href="https://www.linkedin.com/in/hammad-karim" target="_blank">
+        <button>
+          <i class="fa-brands fa-linkedin"></i>
+          LinkedIn
+        </button>
+      </a>
+    </div>
+  </section>
+  <!-- About -->
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <div class="about-card">
+        <h3>Who Am I?</h3>
+        <p>
+          I am a BSc Software Engineering student at the University of Engineering & Technology, Peshawar with a strong
+          passion for programming, web development, and problem-solving. I enjoy building modern and user-friendly
+          applications while continuously improving my technical skills through practical projects and hands-on
+          learning.
+        </p>
+      </div>
+      <div class="about-card">
+        <h3>Education</h3>
+        <div class="education-item">
+          <h4>Bachelor's in Software Engineering</h4>
+          <p>University of Engineering & Technology Peshawar</p>
+          <p>September 2025 - September 2029</p>
+        </div>
+        <h3>Skills</h3>
+        <div class="skills">
+          <span class="skill">HTML</span>
+          <span class="skill">CSS</span>
+          <span class="skill">JavaScript</span>
+          <span class="skill">C++</span>
+          <span class="skill">Object Oriented Programming</span>
+          <span class="skill">C Programming</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+    <div class="project-container">
+      <div class="project-card">
+        <img src="assets/portfolio.png" alt="Portfolio Website">
+        <div class="project-content">
+          <h3>Personal Portfolio</h3>
+          <p>
+            A responsive personal portfolio website with dark mode,
+            typing animation, smooth scrolling, and contact form
+            integration using EmailJS.
+          </p>
+          <div class="badges">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+          <a href="https://github.com/hammad-karim-se/Personal-Portfolio-Website" target="_blank">View Project</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="assets/AMS.PNG" alt="Attendance Management System">
+        <div class="project-content">
+          <h3>Attendance Management System</h3>
+          <p>
+            A console-based Attendance Management System developed in C Programming language as a semester project to
+            strengthen the problem solving skill.
+          </p>
+          <div class="badges">
+            <span>C</span>
+            <span>File Handling</span>
+          </div>
+          <a href="https://github.com/hammad-karim-se/Attendance-Management-System-in-C" target="_blank">View
+            Project</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="assets/GPA.PNG" alt="GPA Calculator">
+        <div class="project-content">
+          <h3>GPA Calculator</h3>
+          <p>
+            A console-based GPA Calculator developed in C++ as a hands-on practice project to strengthen
+            programming fundamentals and problem-solving skills.
+          </p>
+          <div class="badges">
+            <span>C++</span>
+          </div>
+          <a href="https://github.com/hammad-karim-se/GPA-Calculator-in-CPP" target="_blank">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2>Contact</h2>
+    <div class="contact-container">
+      <div class="contact-info">
+        <div class="c-card">
+          <div class="icon">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <h3>Email</h3>
+          <a href="mailto:hammadkarim.se@outlook.com">
+            hammadkarim.se@outlook.com
+          </a>
+        </div>
+        <div class="c-card">
+          <div class="icon">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <h3>Phone</h3>
+          <a href="tel:+923195136554">
+            +92 (319) 5136554
+          </a>
+        </div>
+        <div class="c-card">
+          <div class="icon">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <h3>Location</h3>
+          <a href="#" target="_blank">
+            Haripur, KPK, Pakistan
+          </a>
+        </div>
+      </div>
+      <div class="c-form">
+        <form id="contactForm">
+          <h3>Get In Touch</h3>
+          <div class="name">
+            <div>
+              <label for="firstname">First Name</label>
+              <input type="text" id="firstname" required />
+            </div>
+            <div>
+              <label for="lastname">Last Name</label>
+              <input type="text" id="lastname" required />
+            </div>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" required />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Write your message here..." required></textarea>
+          </div>
+          <button type="submit">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Hammad Karim. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
