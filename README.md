@@ -29,7 +29,6 @@ Portfolio-Website/
 │
 ├── assets/
 │   ├── favicon.png
-│   ├── portfolio.png
 │   ├── AMS.PNG
 │   └── GPA.PNG
 │

@@ -19,7 +19,6 @@ themeSwitch.addEventListener("click", () => {
 
 const texts = [
     "C/C++ Programmer",
-    "Frontend Developer",
     "Problem Solver"
 ];
 let count = 0;
